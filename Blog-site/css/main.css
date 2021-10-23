@@ -1,0 +1,18 @@
+@import "style.css";
+@import "mobile.css";
+@import "utilities.css";
+
+.blog {
+    background-color: rgb(204, 204, 204);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.blog a {
+    color: black;
+}
+
+.blog a:hover{
+    color: rgb(218, 36, 36);
+}

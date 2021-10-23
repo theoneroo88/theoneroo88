@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'footer footer footer footer footer footer';
+    }
+  
+    .middle {
+    grid-area: middle;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    }
+  }

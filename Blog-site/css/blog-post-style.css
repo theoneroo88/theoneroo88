@@ -1,0 +1,24 @@
+@import "style.css";
+@import "mobile.css";
+@import "utilities.css";
+
+.middle {
+    display:flex;
+    flex-direction: column;
+}
+
+#mainpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.article-bottom {
+  display: flex;
+  justify-content: right;
+}

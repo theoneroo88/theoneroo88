@@ -1,0 +1,37 @@
+@import "mobile.css";
+@import "utilities.css";
+
+.header {
+  grid-area: header;
+  text-align: center;
+  background-color: rgb(98, 148, 224);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle middle' 
+    'footer footer footer footer footer footer';
+} 
+
+.left {
+  grid-area: left;
+}
+
+.middle {
+  grid-area: middle;
+  display: flex;
+  padding: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.footer {
+  grid-area: footer;
+}
